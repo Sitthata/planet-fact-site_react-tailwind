@@ -9,7 +9,6 @@ interface AnimatePlanetProps {
 
 const AnimatePlanet = ({
   planet,
-  index,
   constraintsRef,
 }: AnimatePlanetProps) => {
   const [isHovered, setIsHovered] = useState(false);

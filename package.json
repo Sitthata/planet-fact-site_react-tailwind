@@ -1,5 +1,6 @@
 {
   "name": "planet-fact-site_react-tailwind",
+  "homepage": "https://sitthata.github.io/planet-fact-site_react-tailwind/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,6 +9,7 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
     "tailwind": "npx tailwindcss -i ./src/styles/input.css -o ./dist/output.css --watch"
   },
   "dependencies": {
@@ -26,6 +28,7 @@
     "eslint": "^8.38.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
+    "gh-pages": "^5.0.0",
     "tailwindcss": "^3.3.2",
     "typescript": "^5.0.2",
     "vite": "^4.3.9"
